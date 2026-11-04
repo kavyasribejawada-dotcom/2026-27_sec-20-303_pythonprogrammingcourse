@@ -1,0 +1,5 @@
+principal = int(input("enter principal:"))
+rate = int(input("enter a rate:"))
+time = int(input("enter a time:"))
+si = (principal*rate*time)/100
+print(si)
