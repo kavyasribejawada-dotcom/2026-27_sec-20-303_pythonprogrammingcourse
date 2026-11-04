@@ -1,1 +1,25 @@
+a = "python"
 
+print("p" in a)
+print("z" not in a)
+a = [10, 2.5, True, "hello"]
+
+print(10 in a)
+print(2.5 in a)
+print(True in a)
+print("hello" in a)
+print(20 not in a)
+a = (10, 20, 30, 40)
+
+print(20 in a)
+print(50 not in a)
+a = {10, 20, 30, 40}
+
+print(30 in a)
+print(50 not in a)
+a = {"name":"kavya", "age":18, "branch":"AI"}
+
+print("name" in a)
+print("age" in a)
+print("kavya" in a)
+print("city" not in a)
