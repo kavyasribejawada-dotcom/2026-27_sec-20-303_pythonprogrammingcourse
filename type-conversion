@@ -1,0 +1,14 @@
+a="kavya"
+b=str(a)
+print(b)
+print(type(b))
+
+a=100
+b=int(a)
+print(a)
+print(type(b))
+
+a=10.55
+b=float(a)
+print(b)
+print(type(b))
