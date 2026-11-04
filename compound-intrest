@@ -1,0 +1,7 @@
+principal = float(input("enter principal"))
+rate = float(input("enter rate"))
+time = float(input("enter time"))
+a = principal*(1+rate/100) ** time
+ci= (a-principal)
+print("compound intrest=", ci)
+print("total amount=", a)
