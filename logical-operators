@@ -1,0 +1,5 @@
+num1=float(input("enter a number:"))
+num2=float(input("enter a number:"))
+print(f"({num1} > 5) and ({num2} > 15) is {(num1 > 5) and (num2 > 15)}")
+print(f"({num1} > 50) or ({num2} > 15) is {(num1 > 50) or ( num2 > 15)}")
+print(f"not ({num1} > 50) is {not (num1 > 50)}")
