@@ -1,0 +1,7 @@
+n=int(input("enter how many numbers:"))
+largest=int(input("enter number1:"))
+for i in range(2,n+1):
+    num=int(input("enter a number:"))
+    if num>largest:
+        largest=num
+print("Largest number is:",largest)        
