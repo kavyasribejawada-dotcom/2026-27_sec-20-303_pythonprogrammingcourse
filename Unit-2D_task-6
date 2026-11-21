@@ -1,0 +1,14 @@
+
+name = "Kavya"
+age = 18
+marks = 90
+
+# Using format()
+print("My name is {} and my age is {}".format(name, age))
+
+# Using f-strings
+print(f"My name is {name} and my marks {marks}")
+
+# Using % operator
+print("\n using % operator:")
+print("My name is %s and my age is %d" % (name, age))
