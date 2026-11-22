@@ -1,0 +1,10 @@
+def divide(a, b):
+    return a / b
+result1 = divide(b=10,a=20)
+result2 = divide(10,20)
+
+# Keyword arguments
+print("result using Keyword arguments:",result1)
+
+# Positional arguments
+print("result using Positional arguments:",result2)
