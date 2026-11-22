@@ -1,0 +1,11 @@
+def simple_interest(principal, time, rate=5):
+    si = (principal * time * rate) / 100
+    return si
+si1 = simple_interest(10000,2)
+si2=simple_interest(10000,2,8)
+
+# Calling with default rate
+print("simple interest with default rate:",si1)
+
+# Calling with explicit rate
+print("simple interest with default explict rate:",si2)
