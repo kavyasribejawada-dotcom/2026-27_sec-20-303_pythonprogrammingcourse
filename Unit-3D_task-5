@@ -1,0 +1,9 @@
+def find_sum(*args):
+    total=0
+    for i in args:
+        total=total+i
+    return total
+
+print("Sum:", find_sum(10, 20))
+print("sum:", find_sum(10,20,30))
+print("sum:", find_sum(5,10,15,20))
