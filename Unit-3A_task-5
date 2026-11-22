@@ -1,0 +1,25 @@
+# Creating two matrices
+A = [[1, 2], [3, 4]]
+B = [[5, 6], [7, 8]]
+
+# Matrix Addition
+add = [[0, 0], [0, 0]]
+
+for i in range(2):
+    for j in range(2):
+        add[i][j] = A[i][j] + B[i][j]
+
+print("Matrix Addition:")
+for row in add:
+    print(row)
+
+# Matrix Subtraction
+sub = [[0, 0], [0, 0]]
+
+for i in range(2):
+    for j in range(2):
+        sub[i][j] = A[i][j] - B[i][j]
+
+print("Matrix Subtraction:")
+for row in sub:
+    print(row)
