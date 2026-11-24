@@ -1,0 +1,19 @@
+# Create a list of student dictionaries
+students = [
+    {"name": "Kavya", "marks": 85},
+    {"name": "Ravi", "marks": 90},
+    {"name": "Sita", "marks": 75},
+    {"name": "Ram", "marks": 95}
+]
+
+# Sort in ascending order
+ascending = sorted(students, key=lambda x: x["marks"])
+
+# Sort in descending order
+descending = sorted(students, key=lambda x: x["marks"], reverse=True)
+
+print("Ascending Order:")
+print(ascending)
+
+print("Descending Order:")
+print(descending)
