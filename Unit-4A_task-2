@@ -1,0 +1,22 @@
+student = {"name": "Kavya","age": 18, "course": "AI&ML"}
+
+# Display keys
+print("Keys:", student.keys())
+
+# Display values
+print("Values:", student.values())
+
+# Display items
+print("Items:", student.items())
+
+# Get a value
+print("Name:", student.get("name"))
+
+# Update dictionary
+student.update({"age": 19})
+
+# Remove an item
+student.pop("course")
+
+# Display final dictionary
+print("Final Dictionary:", student)
