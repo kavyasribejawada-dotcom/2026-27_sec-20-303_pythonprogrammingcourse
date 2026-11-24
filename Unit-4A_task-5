@@ -1,0 +1,17 @@
+subjects = {"Python": 90, "Java": 85, "HTML": 95,"CSS": 88
+            }
+
+# Print keys
+print("Subject Names:")
+for key in subjects.keys():
+    print(key)
+
+# Print values
+print("Subject Marks:")
+for value in subjects.values():
+    print(value)
+
+# Print items
+print("Subject and Marks:")
+for key, value in subjects.items():
+    print(key, ":", value)
